@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css'
+import Mynavbar from './Components/Mynavbar';
+import Productlist from './Components/Productlist';
+import Cart from './Components/Cart';
+import Productdetails from './Components/Productdetails';
 
 function App() {
+
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (productdata) => {
+    setCart([...cart, productdata]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Mynavbar totalitems={cart.length} />
+        <Routes>
+          <Route path='/' element={<Productlist />}></Route>
+          <Route path='/cart' element={<Cart cart={cart} setter={setCart} />}></Route>
+          <Route path='/productdetails/:id' element={<Productdetails addToCart={addToCart} />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

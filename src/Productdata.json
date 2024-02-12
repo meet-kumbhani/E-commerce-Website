@@ -1,0 +1,704 @@
+{
+  "phones": [
+    {
+      "id": "1",
+      "name": "iPhone X",
+      "model": "S20-200",
+      "price": 44999,
+      "quantity": 1,
+      "storage": "64GB",
+      "image": "https://vlebazaar.in/image/cache/catalog/----imagsweb/ipx-550x550.jpeg",
+      "fullname": "iPhone X (Space Gray, 64GB) (6GB storage)",
+      "packaging_fee": "+ ₹99 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S20",
+      "model": "S20-200",
+      "quantity": 1,
+      "price": 59999,
+      "storage": "64GB",
+      "image": "https://m.media-amazon.com/images/I/81vDZyJQ-4L._SY741_.jpg",
+      "fullname": "Galaxy S20 (Cosmic Gray, 64GB) (8GB storage)",
+      "packaging_fee": "+ ₹130 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Apple Watch Ultra",
+      "model": "Ultra A8+",
+      "quantity": 1,
+      "price": 79999,
+      "storage": "2GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/t/e/y/-original-imagtcnuq6xsnhhe.jpeg?q=70&crop=false",
+      "fullname": "Apple Watch Ultra (2GB storage)",
+      "packaging_fee": "+ ₹99 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "iPhone 13",
+      "model": "IP13-400",
+      "quantity": 1,
+      "price": 82499,
+      "storage": "64GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/2/y/o/iphone-13-mlpk3hn-a-apple-original-imag6vpyur6hjngg.jpeg?q=70&crop=false",
+      "fullname": "iPhone 13 (Graphite Gray, 64GB) (8GB storage)",
+      "packaging_fee": "+ ₹150 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Pixel 6",
+      "model": "PXL6-500",
+      "quantity": 1,
+      "price": 52499,
+      "storage": "64GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/i/d/-original-imagpgx4erjqnpzx.jpeg?q=70&crop=false",
+      "fullname": "Pixel 6 (Shadow Black, 64GB) (6GB storage)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Boult Cosmic",
+      "model": "R 1.3 HD",
+      "quantity": 1,
+      "price": 1199,
+      "storage": "2GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/d/x/e/-original-imagux8kshztmczh.jpeg?q=70&crop=false",
+      "fullname": "Boult Cosmic (Onyx Black) (2GB storage)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Sony Xperia 5",
+      "model": "X5-700",
+      "quantity": 1,
+      "price": 63749,
+      "storage": "128GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/j8t35ow0/mobile/c/r/w/sony-xperia-xa1-plus-g3416-original-imaeym7pvphgz8ab.jpeg?q=70&crop=false",
+      "fullname": "Sony Xperia 5 (Charcoal Gray, 64GB) (8GB storage)",
+      "packaging_fee": "+ ₹80 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Samsung",
+      "model": "Watch 4",
+      "quantity": 1,
+      "price": 10999,
+      "storage": "2GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/q/7/s/-original-imagxp8uzzegnddr.jpeg?q=70&crop=false",
+      "fullname": "Samsung Watch 4 (Mystic Black) (2GB storage)",
+      "packaging_fee": "+ ₹70 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "OnePlus",
+      "model": "Bullets Wireless Z2",
+      "quantity": 1,
+      "price": 1499,
+      "storage": "Deep Bass",
+      "image": "https://rukminim2.flixcart.com/image/416/416/l0sgyvk0/headphone/e/w/c/buds-z2-oneplus-original-imagcg5gfpcg5ndv.jpeg?q=70&crop=false",
+      "fullname": "OnePlus Bullets Wireless Z2 (Stealth Black, Deep Bass)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Xiaomi Mi 11",
+      "model": "MI11-1000",
+      "quantity": 1,
+      "price": 59999,
+      "storage": "64GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/q/q/-original-imaggcz6fyt9yayh.jpeg?q=70&crop=false",
+      "fullname": "Xiaomi Mi 11 (Carbon Black, 64GB) (12GB storage)",
+      "packaging_fee": "+ ₹85 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Fire-Boltt",
+      "model": "Supernova 1.78",
+      "quantity": 1,
+      "price": 1799,
+      "storage": "2GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/a/2/r/-original-imagxp8tpgm2ufxh.jpeg?q=70&crop=false",
+      "fullname": "Fire-Boltt Supernova 1.78 (Cosmic Black) (2GB storage)",
+      "packaging_fee": "+ ₹40 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Google Pixel 5a",
+      "model": "P5a-1200",
+      "quantity": 1,
+      "price": 33749,
+      "storage": "128GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/z/b/d/-original-imagpgx48f4szdvf.jpeg?q=70&crop=false",
+      "fullname": "Google Pixel 5a (Shadow Gray, 128GB) (6GB storage)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Boat",
+      "model": "Rockerz 110",
+      "quantity": 1,
+      "price": 29999,
+      "storage": "40 HRS Playback,",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/r/r/4/-original-imaguggqedr3ypyx.jpeg?q=70&crop=false",
+      "fullname": "Boat Rockerz 110 (Raven Black, 40 HRS Playback)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "OnePlus Nord",
+      "model": "OPN-1400",
+      "quantity": 1,
+      "price": 44999,
+      "storage": "64GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/r/b/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj42cctpjjze.jpeg?q=70&crop=false",
+      "fullname": "OnePlus Nord (Arctic White, 64GB) (8GB storage)",
+      "packaging_fee": "+ ₹99 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Motorola Edge",
+      "model": "ME-1500",
+      "quantity": 1,
+      "price": 52499,
+      "storage": "64GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/r/r/edge-40-neo-payj0002in-motorola-original-imagtkzh8zrvp3uj.jpeg?q=70&crop=false",
+      "fullname": "Motorola Edge (Nebula Blue, 64GB) (6GB storage)",
+      "packaging_fee": "+ ₹99 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Apple Airpods",
+      "model": "Airpods Pro",
+      "quantity": 1,
+      "price": 19990,
+      "storage": "2x more Active Noise Cancellation ",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/e/a/f/-original-imagtc44nk4b3hfg.jpeg?q=70&crop=false",
+      "fullname": "Apple Airpods (Snow White) (2x more Active Noise Cancellation)",
+      "packaging_fee": "+ ₹99 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Redmi Note 10",
+      "model": "RN10-1700",
+      "quantity": 1,
+      "price": 18749,
+      "storage": "64GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kua4r680/mobile/g/p/g/m2002f4lg-m1910f4g-redmi-note-10-lite-redmi-original-imag7f7fpmee9gje.jpeg?q=70&crop=false",
+      "fullname": "Redmi Note 10 (Aurora Blue, 64GB) (4GB storage)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Chaebol",
+      "model": "Gaming Pro X90",
+      "quantity": 1,
+      "price": 949,
+      "storage": "Gaming Mode 5.30A",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/b/k/f/new-super-budspro-t80-enc-gaming-super-low-latency-35-ms-upto-50-original-imagwu5z46xhuqxk.jpeg?q=70&crop=false",
+      "fullname": "Chaebol Gaming Pro X90 (Neon Green, Gaming Mode 5.30A)",
+      "packaging_fee": "+ ₹40 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "iPhone 12 Mini",
+      "model": "IP12M-1900",
+      "quantity": 1,
+      "price": 53499,
+      "storage": "64GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/n/p/d/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfwkfrerak.jpeg?q=70&crop=false",
+      "fullname": "iPhone 12 Mini (Product Red, 64GB) (4GB storage)",
+      "packaging_fee": "+ ₹99 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "JBL",
+      "model": "BT 5.3LE",
+      "quantity": 1,
+      "price": 3999,
+      "storage": "57Hr Playtime",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/m/a/n/-original-imagrvejgbfpayz6.jpeg?q=70&crop=false",
+      "fullname": "JBL BT 5.3LE (Mystic Bronze, 57Hr Playtime)",
+      "packaging_fee": "+ ₹120 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Apple",
+      "model": "OP8T-2100",
+      "quantity": 1,
+      "price": 899,
+      "storage": "Type-C Crystal Sound",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/q/e/v/type-c-crystal-sound-wired-headphones-for-oneplus-oppo-realme-original-imagvbwhan2ntmza.jpeg?q=70&crop=false",
+      "fullname": "Apple OP8T-2100 (Emerald Green, Type-C Crystal Sound)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Xiaomi Redmi 9",
+      "model": "R9-2200",
+      "quantity": 1,
+      "price": 13499,
+      "storage": "256GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/f/w/-original-imags37hy7uz2usv.jpeg?q=70&crop=false",
+      "fullname": "Xiaomi Redmi 9 (Ocean Blue, 64GB) (4GB storage)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "23",
+      "name": "LG G8 ThinQ",
+      "model": "G8-2300",
+      "quantity": 1,
+      "price": 33749,
+      "storage": "64GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/jzhb24w0pkrrdj/mobile-refurbished/c/g/6/v40-thinq-128-b-lmv405ebw-aindpm-lg-6-original-imaff986zfhazxer.jpeg?q=70&crop=false",
+      "fullname": "LG G8 ThinQ (Platinum Gray, 64GB) (6GB storage)",
+      "packaging_fee": "+ ₹80 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Fire-Boltt",
+      "model": "Starlight 2.01",
+      "quantity": 1,
+      "price": 1699,
+      "storage": "Stainless Steel Luxury",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/h/g/z/-original-imagxp8ugehwpqhp.jpeg?q=70&crop=false",
+      "fullname": "Fire-Boltt Starlight 2.01 (Stainless Steel Luxury, Jet Black))",
+      "packaging_fee": "+ ₹60 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Samsung Galaxy A32",
+      "model": "A32-2500",
+      "quantity": 1,
+      "price": 28999,
+      "storage": "64GB",
+      "image": "https://cdn1.smartprix.com/rx-imJFzSZ34-w420-h420/samsung-galaxy-a32-5.jpg",
+      "fullname": "Samsung Galaxy A32 (Prism White, 64GB) (4GB storage)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Skywings",
+      "model": "M-19",
+      "quantity": 1,
+      "price": 499,
+      "storage": "Deep Bass",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/n/y/e/m19-skywings-original-imagxkzyfhuyhkfz.jpeg?q=70&crop=false",
+      "fullname": "Skywings M-19 (Midnight Blue, Deep Bass)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Google Pixel 3a",
+      "model": "P3a-2700",
+      "quantity": 1,
+      "price": 22999,
+      "storage": "256GB",
+      "image": "https://detec.in/cdn/shop/products/100_057a4137-b3ce-4123-a1c8-285eb62bf0b9.jpg?v=1645252785",
+      "fullname": "Google Pixel 3a (Clearly White, 64GB) (4GB storage)",
+      "packaging_fee": "+ ₹50 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Blaupunkt",
+      "model": "BTW12",
+      "quantity": 1,
+      "price": 1199,
+      "storage": "30H Playtime",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/t/k/f/btw12-khrome-bassbuds-truly-wireless-bt-earbuds-low-latency-30h-original-imagrej6gqzzbzzg.jpeg?q=70&crop=false",
+      "fullname": "Blaupunkt BTW12 (Titanium Gray, 30H Playtime)",
+      "packaging_fee": "+ ₹30 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
+        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+
+    {
+      "id": "29",
+      "name": "SanDisk Cruzer Glide",
+      "model": "SDCG-001",
+      "storage": "64GB",
+      "quantity": 1,
+      "price": 599,
+      "image": "https://rukminim2.flixcart.com/image/416/416/kjabs7k0-0/pendrive/pendrive/c/d/j/cruzer-blade-usb-flash-drive-2-0-pen-drive-32-gb-sandisk-original-imafyw2fxzek9gmu.jpeg?q=70&crop=false",
+      "fullname": "SanDisk Cruzer Glide USB Flash Drive (Black, 64GB)",
+      "packaging_fee": "+ ₹20 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹500 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹100/month (*T&C*)",
+        "Special Price: Get extra ₹100 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "30",
+      "name": "HP v236w",
+      "model": "HPV-002",
+      "storage": "32GB",
+      "quantity": 1,
+      "price": "449",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/pendrive/pendrive/g/x/f/v236w-usb-hp-original-imagmazydcyxefus.jpeg?q=70&crop=false",
+      "fullname": "HP v236w USB Flash Drive (Silver, 32GB)",
+      "packaging_fee": "+ ₹15 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹400 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹90/month (*T&C*)",
+        "Special Price: Get extra ₹80 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Samsung Bar Plus",
+      "model": "SBBP-003",
+      "storage": "128GB",
+      "quantity": 1,
+      "price": 899,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/pendrive/pendrive/b/i/i/muf-128da-apc-samsung-original-imaguzgvnfgwsnx7.jpeg?q=70&crop=false",
+      "fullname": "Samsung Bar Plus USB 3.1 Flash Drive (Champagne Silver, 128GB)",
+      "packaging_fee": "+ ₹25 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹600 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹150/month (*T&C*)",
+        "Special Price: Get extra ₹120 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Kingston DataTraveler",
+      "model": "KDT-004",
+      "storage": "16GB",
+      "quantity": 1,
+      "price": 299,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/pendrive/type-a-to-type-c/b/r/b/ks108-512gb-usb-3-0-type-c-high-speed-metal-pendrive-for-pc-original-imagxb5prpypxxge.jpeg?q=70&crop=false",
+      "fullname": "Kingston DataTraveler SE9 G2 USB 3.0 16 GB Pen Drive (Silver)",
+      "packaging_fee": "+ ₹10 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹200 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹60/month (*T&C*)",
+        "Special Price: Get extra ₹50 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Sony Microvault",
+      "model": "SMV-005",
+      "storage": "32GB",
+      "quantity": 1,
+      "price": 449,
+      "image": "https://5.imimg.com/data5/KE/XF/MY-16497519/sony-micro-vault-32gb-usb-2-0-pendrive.jpeg",
+      "fullname": "Sony Microvault USB 3.0 32 GB Pen Drive (White)",
+      "packaging_fee": "+ ₹15 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹400 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹90/month (*T&C*)",
+        "Special Price: Get extra ₹80 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Strontium Nitro Plus",
+      "model": "SNP-006",
+      "storage": "64GB",
+      "quantity": 1,
+      "price": 749,
+      "image": "https://rukminim2.flixcart.com/image/416/416/pendrive/utility-pendrive/c/h/j/strontium-sr16gslammo-original-imadsy3hcgdekfcn.jpeg?q=70&crop=false",
+      "fullname": "Strontium Nitro Plus OTG 3.0 64 GB Pen Drive (Gold)",
+      "packaging_fee": "+ ₹20 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹600 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹150/month (*T&C*)",
+        "Special Price: Get extra ₹120 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Transcend JetFlash",
+      "model": "TJF-007",
+      "storage": "128GB",
+      "quantity": 1,
+      "price": 899,
+      "image": "https://computechstore.in/wp-content/uploads/2023/07/Transcend-JetFlash-750-64GB-USB-3.0-Pen-Drive-Black-1-e1690190624815.jpg",
+      "fullname": "Transcend JetFlash 760 128 GB Pen Drive (Black)",
+      "packaging_fee": "+ ₹25 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹600 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹150/month (*T&C*)",
+        "Special Price: Get extra ₹120 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Sandisk Ultra Dual",
+      "model": "SUD-008",
+      "storage": "64GB",
+      "quantity": 1,
+      "price": 649,
+      "image": "https://rukminim2.flixcart.com/image/416/416/kq18n0w0/pendrive/pendrive/o/a/o/ultra-dual-drive-sandisk-original-imag454fwhwrmyg9.jpeg?q=70&crop=false",
+      "fullname": "Sandisk Ultra Dual 64 GB USB 3.0 OTG Pen Drive (Black)",
+      "packaging_fee": "+ ₹20 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹500 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹130/month (*T&C*)",
+        "Special Price: Get extra ₹100 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "37",
+      "name": "HP x740w",
+      "model": "HPX-009",
+      "storage": "32GB",
+      "quantity": 1,
+      "price": 499,
+      "image": "https://rukminim2.flixcart.com/image/416/416/k2tc1ow0/pendrive/pendrive/f/5/g/hp-usb-2-0-flash-drive-32gb-v220w-original-imafm2truygrazkz.jpeg?q=70&crop=false",
+      "fullname": "HP x740w 32 GB USB 3.0 Pen Drive (Silver)",
+      "packaging_fee": "+ ₹15 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹400 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹100/month (*T&C*)",
+        "Special Price: Get extra ₹80 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Kingston DT",
+      "model": "KDT-010",
+      "storage": "64GB",
+      "quantity": 1,
+      "price": 699,
+      "image": "https://m.media-amazon.com/images/I/61EecCpt8mL.jpg",
+      "fullname": "Kingston DT G4 64 GB Pen Drive (White)",
+      "packaging_fee": "+ ₹20 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹500 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹140/month (*T&C*)",
+        "Special Price: Get extra ₹120 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "39",
+      "name": "SanDisk Ultra Flair",
+      "model": "SDUF-011",
+      "storage": "128GB",
+      "quantity": 1,
+      "price": 999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/pendrive/pendrive/x/f/b/c273-ultra-flair-sandisk-original-imagpay4mctkfghh.jpeg?q=70&crop=false",
+      "fullname": "SanDisk Ultra Flair 128 GB Pen Drive (Silver)",
+      "packaging_fee": "+ ₹25 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹600 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹180/month (*T&C*)",
+        "Special Price: Get extra ₹150 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    },
+    {
+      "id": "40",
+      "name": "ADATA Classic",
+      "model": "AC-012",
+      "storage": "32GB",
+      "quantity": 1,
+      "price": 449,
+      "image": "https://webapi3.adata.com/storage/ProductGallery/productGallery5965.jpg",
+      "fullname": "ADATA Classic Series C008 32 GB Pen Drive (White)",
+      "packaging_fee": "+ ₹15 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹400 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹90/month (*T&C*)",
+        "Special Price: Get extra ₹80 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": "abc",
+      "name": "ADATA Classic",
+      "model": "AC-012",
+      "storage": "32GB",
+      "quantity": 1,
+      "price": 449,
+      "image": "https://webapi3.adata.com/storage/ProductGallery/productGallery5965.jpg",
+      "fullname": "ADATA Classic Series C008 32 GB Pen Drive (White)",
+      "packaging_fee": "+ ₹15 Secured Packaging Fee",
+      "offers": [
+        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
+        "Bank Offer: ₹400 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
+        "No Cost EMI: Starting from ₹90/month (*T&C*)",
+        "Special Price: Get extra ₹80 off (price inclusive of cashback/coupon) (*T&C*)"
+      ]
+    }
+  ]
+}

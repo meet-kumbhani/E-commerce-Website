@@ -17,7 +17,7 @@ const Productlist = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/phones")
+      .get("http://localhost:3002/phones")
       .then((result) => {
         setItemdata(result.data);
       })

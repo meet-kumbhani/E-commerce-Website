@@ -4,11 +4,11 @@ import { useParams } from "react-router-dom";
 import ControlPointIcon from "@mui/icons-material/ControlPoint";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
 
-const Productdetails = ({ addToCart }) => {
+const Productdetails = ({ addToCart, cart, setter }) => {
   let { id } = useParams();
-  const [productdata, setproductdata] = useState(null);
+  const [productdata, setproductdata] = useState([]);
   const [addcart, setaddcart] = useState(false);
-  const [quantity, setquantity] = useState([]);
+  const [quantity, setquantity] = useState(1);
 
   useEffect(() => {
     axios
@@ -34,19 +34,19 @@ const Productdetails = ({ addToCart }) => {
     axios
       .get(`http://localhost:3002/cart`)
       .then((a) => {
-        setquantity(a.data);
+        setter(a.data);
         console.log(a.data);
       })
       .catch((err) => {
         console.log(err);
       });
     axios
-      .delete(`http://localhost:3002/cart/abc`)
+      .delete(`http://localhost:3002/cart/800`)
       .then(() => {
         axios
           .get(`http://localhost:3002/cart`)
           .then((response) => {
-            setquantity(response.data);
+            setter(response.data);
           })
           .catch((err) => {
             console.log(err);
@@ -55,7 +55,7 @@ const Productdetails = ({ addToCart }) => {
       .catch((err) => {
         console.log(err);
       });
-  }, [quantity]);
+  }, [setter]);
 
   const updateQuantity = (id, newQuantity) => {
     axios
@@ -64,8 +64,9 @@ const Productdetails = ({ addToCart }) => {
         axios
           .get(`http://localhost:3002/cart`)
           .then((response) => {
-            setquantity(response.data);
+            setter(response.data);
             setaddcart(true);
+            // setquantity(newQuantity);
           })
           .catch((err) => {
             console.log(err);
@@ -76,8 +77,15 @@ const Productdetails = ({ addToCart }) => {
       });
   };
 
-  const handleQuantityChange = (id, newQuantity) => {
-    updateQuantity(id, newQuantity);
+  let handleQuantityChange = (id) => {
+    let cartProduct = cart.find((item) => item.id == id);
+
+    if (cartProduct) {
+      let updatedQuantity = cartProduct.quantity + 1;
+      setaddcart(true);
+      updateQuantity(id, updatedQuantity);
+      setquantity(updatedQuantity);
+    }
   };
 
   return (
@@ -100,28 +108,26 @@ const Productdetails = ({ addToCart }) => {
                     ) : (
                       <>
                         <button className="buynow-btn me-2">Buy Now</button>
-                        {quantity.map((i) => (
-                          <>
-                            <h5 className="d-flex align-items-center">
-                              Quantity:-
-                              <RemoveCircleOutlineIcon
-                                fontSize="small"
-                                className="me-2"
-                                onClick={() =>
-                                  handleQuantityChange(i.id, i.quantity - 1)
-                                }
-                              />
-                              {i.quantity}
-                              <ControlPointIcon
-                                fontSize="small"
-                                className="ms-2"
-                                onClick={() =>
-                                  handleQuantityChange(i.id, i.quantity + 1)
-                                }
-                              />
-                            </h5>
-                          </>
-                        ))}
+
+                        <h5 className="d-flex align-items-center">
+                          Quantity:-
+                          <RemoveCircleOutlineIcon
+                            fontSize="small"
+                            className="me-2"
+                            onClick={() =>
+                              handleQuantityChange(productdata.id, -1)
+                            }
+                          />
+                          {quantity}
+                          <ControlPointIcon
+                            fontSize="small"
+                            className="ms-2"
+                            onClick={() =>
+                              handleQuantityChange(productdata.id, 1)
+                            }
+                          />
+                        </h5>
+
                         {/* <ControlPointIcon fontSize="small" className="ms-2" /> */}
                       </>
                     )}

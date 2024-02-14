@@ -684,7 +684,7 @@
   ],
   "cart": [
     {
-      "id": "abc",
+      "id": 800,
       "name": "ADATA Classic",
       "model": "AC-012",
       "storage": "32GB",

@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Productlist />}></Route>
           <Route path='/cart' element={<Cart cart={cart} setter={setCart} />}></Route>
-          <Route path='/productdetails/:id' element={<Productdetails addToCart={addToCart} productdata={cart} update={setCart} />}></Route>
+          <Route path='/productdetails/:id' element={<Productdetails addToCart={addToCart} cart={cart} setter={setCart} />}></Route>
         </Routes>
       </BrowserRouter>
     </>

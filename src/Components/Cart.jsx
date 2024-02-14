@@ -16,7 +16,7 @@ const Cart = ({ cart, setter }) => {
       });
 
     axios
-      .delete(`http://localhost:3002/cart/abc`)
+      .delete(`http://localhost:3002/cart/800`)
       .then(() => {
         axios
           .get(`http://localhost:3002/cart`)

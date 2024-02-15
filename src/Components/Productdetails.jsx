@@ -4,9 +4,9 @@ import { useParams } from "react-router-dom";
 import ControlPointIcon from "@mui/icons-material/ControlPoint";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
 
-const Productdetails = ({ addToCart, cart, setter }) => {
+const Productdetails = ({ cart, setter }) => {
   let { id } = useParams();
-  const [productdata, setproductdata] = useState([]);
+  const [productdata, setproductdata] = useState(null);
   const [addcart, setaddcart] = useState(false);
   const [quantity, setquantity] = useState(1);
 
@@ -21,25 +21,24 @@ const Productdetails = ({ addToCart, cart, setter }) => {
       });
   }, [id]);
 
-  let handelcart = () => {
-    axios.post("http://localhost:3002/cart", { ...productdata }).then(() => {
-      if (!addcart) {
-        setaddcart(true);
-        addToCart(productdata);
-      }
-    });
-  };
-
   useEffect(() => {
     axios
       .get(`http://localhost:3002/cart`)
       .then((a) => {
+        const foundProduct = a.data.find((item) => item.id === parseInt(id));
+        if (foundProduct) {
+          setaddcart(true);
+          setquantity(foundProduct.quantity);
+        }
         setter(a.data);
         console.log(a.data);
       })
-      .catch((err) => {
-        console.log(err);
-      });
+      .catch(
+        (err) => {
+          console.log(err);
+        },
+        [id, setter]
+      );
     axios
       .delete(`http://localhost:3002/cart/800`)
       .then(() => {
@@ -55,7 +54,20 @@ const Productdetails = ({ addToCart, cart, setter }) => {
       .catch((err) => {
         console.log(err);
       });
-  }, [setter]);
+  }, [id, setter]);
+
+  let handelcart = () => {
+    axios
+      .post("http://localhost:3002/cart", { ...productdata })
+      .then(() => {
+        setaddcart(true);
+        setquantity(1);
+        setter((prev) => [...prev, { ...productdata, quantity }]);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   const updateQuantity = (id, newQuantity) => {
     axios
@@ -71,20 +83,27 @@ const Productdetails = ({ addToCart, cart, setter }) => {
           .catch((err) => {
             console.log(err);
           });
+        setquantity(newQuantity);
+        setter((prev) =>
+          prev.map((item) =>
+            item.id === id ? { ...item, quantity: newQuantity } : item
+          )
+        );
       })
       .catch((err) => {
         console.log(err);
       });
   };
 
-  let handleQuantityChange = (id) => {
+  let handleQuantityChange = (id, increse) => {
     let cartProduct = cart.find((item) => item.id == id);
 
     if (cartProduct) {
-      let updatedQuantity = cartProduct.quantity + 1;
-      setaddcart(true);
+      let updatedQuantity = cartProduct.quantity + increse;
+      if (updatedQuantity < 1) {
+        updatedQuantity = 1;
+      }
       updateQuantity(id, updatedQuantity);
-      setquantity(updatedQuantity);
     }
   };
 
@@ -96,16 +115,14 @@ const Productdetails = ({ addToCart, cart, setter }) => {
             <div className="row">
               <div className="col-md-12 col-lg-6 col-sm-12 mt-5">
                 <div className="image-part">
-                  <img src={productdata.image} alt="" className=" w-70 h-70" />
+                  <img
+                    src={productdata.image}
+                    alt=""
+                    width="70%"
+                    height="500px"
+                  />
                   <div className="buttons mt-4">
-                    {!addcart ? (
-                      <>
-                        <button className="buynow-btn me-2">Buy Now</button>
-                        <button className="cart-btn" onClick={handelcart}>
-                          Add To Cart
-                        </button>
-                      </>
-                    ) : (
+                    {addcart ? (
                       <>
                         <button className="buynow-btn me-2">Buy Now</button>
 
@@ -127,6 +144,13 @@ const Productdetails = ({ addToCart, cart, setter }) => {
                             }
                           />
                         </h5>
+                      </>
+                    ) : (
+                      <>
+                        <button className="buynow-btn me-2">Buy Now</button>
+                        <button className="cart-btn" onClick={handelcart}>
+                          Add To Cart
+                        </button>
 
                         {/* <ControlPointIcon fontSize="small" className="ms-2" /> */}
                       </>

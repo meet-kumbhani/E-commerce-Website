@@ -11,10 +11,6 @@ function App() {
 
   const [cart, setCart] = useState([]);
 
-  const addToCart = (productdata) => {
-    setCart([...cart, productdata]);
-  };
-
   return (
     <>
       <BrowserRouter>
@@ -22,7 +18,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Productlist />}></Route>
           <Route path='/cart' element={<Cart cart={cart} setter={setCart} />}></Route>
-          <Route path='/productdetails/:id' element={<Productdetails addToCart={addToCart} cart={cart} setter={setCart} />}></Route>
+          <Route path='/productdetails/:id' element={<Productdetails cart={cart} setter={setCart} />}></Route>
         </Routes>
       </BrowserRouter>
     </>

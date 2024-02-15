@@ -78,7 +78,6 @@ const Productdetails = ({ cart, setter }) => {
           .then((response) => {
             setter(response.data);
             setaddcart(true);
-            // setquantity(newQuantity);
           })
           .catch((err) => {
             console.log(err);
